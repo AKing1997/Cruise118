@@ -1,0 +1,101 @@
+{
+  "spotlight": [
+    {
+      "line": "Celebrity Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2021/12/10/08/11/21/543fe4de-46b9-4e56-adba-bc77fa6b6122/Celebrity Cruises Logo Dec 2021 0.png",
+      "productName": "9 Night Spain & Portugal Cruise",
+      "details": {
+        "departureDate": "24 Apr 2025",
+        "nights": 9,
+        "ship": "Celebrity Apex",
+        "region": "Northern Europe"
+      },
+      "socialProof": {
+        "views": 595,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 843,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/CELEBAX09M312-240425",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/celebrity-cruises-celebrity-apex-spain-portugal-cruise-9-nights-AX09M312/passengers/AX09M312_20250424?moduleCode=AX09M312&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FCELEBAX09M312-240425"
+      }
+    },
+    {
+      "line": "Celebrity Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2021/12/10/08/11/21/543fe4de-46b9-4e56-adba-bc77fa6b6122/Celebrity Cruises Logo Dec 2021 0.png",
+      "productName": "10 Night Best Of Italy & Croatia Cruise",
+      "details": {
+        "departureDate": "16 May 2025",
+        "nights": 10,
+        "ship": "Celebrity Constellation",
+        "region": "Mediterranean"
+      },
+      "socialProof": {
+        "views": 143,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1376,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/CELEBCS10M366-160525",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/celebrity-cruises-celebrity-constellation-best-of-italy-croatia-cruise-10-nights-CS10M366/passengers/CS10M366_20250516?moduleCode=CS10M366&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FCELEBCS10M366-160525"
+      }
+    },
+    {
+      "line": "Celebrity Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2021/12/10/08/11/21/543fe4de-46b9-4e56-adba-bc77fa6b6122/Celebrity Cruises Logo Dec 2021 0.png",
+      "productName": "9 Night Italian Riviera & France",
+      "details": {
+        "departureDate": "03 Oct 2024",
+        "nights": 9,
+        "ship": "Celebrity Equinox",
+        "region": "Mediterranean"
+      },
+      "socialProof": {
+        "views": 351,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1152,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/CELEBEQ09M291-031024",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/celebrity-cruises-celebrity-equinox-italian-riviera-france-9-nights-EQ09M291/passengers/EQ09M291_20241003?moduleCode=EQ09M291&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FCELEBEQ09M291-031024"
+      }
+    },
+    {
+      "line": "Celebrity Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2021/12/10/08/11/21/543fe4de-46b9-4e56-adba-bc77fa6b6122/Celebrity Cruises Logo Dec 2021 0.png",
+      "productName": "7 Night Norwegian Fjords Cruise",
+      "details": {
+        "departureDate": "03 May 2025",
+        "nights": 7,
+        "ship": "Celebrity Apex",
+        "region": "Northern Europe"
+      },
+      "socialProof": {
+        "views": 361,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1102,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/CELEBAX07U226-030525",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/celebrity-cruises-celebrity-apex-norwegian-fjords-cruise-7-nights-AX07U226/passengers/AX07U226_20250503?moduleCode=AX07U226&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FCELEBAX07U226-030525"
+      }
+    }
+  ],
+  "viewMoreLink": "https://www.cruise118.com/top-20-most-popular"
+}

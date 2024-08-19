@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruise118</title>
+    <link data-bs-theme="dark" rel="shortcut icon" href="/Assets/Icon/Ship.svg" type="image/x-icon" />
+    <link data-bs-theme="light" rel="shortcut icon" href="/Assets/Icon/Cruise118 Logo.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <section>
+        <div id="carouselContainer"></div>
+    </section>
+
+    <section class="p-2">
+        <div class="container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-search-by-cruise-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-cruise" type="button" role="tab" aria-controls="nav-cruise"
+                        aria-selected="true">
+                        Search Cruises
+                    </button>
+                    <button class="nav-link" id="nav-search-by-ref-tab" data-bs-toggle="tab" data-bs-target="#nav-ref"
+                        type="button" role="tab" aria-controls="nav-ref" aria-selected="false">
+                        Search by Ref
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active p-3" id="nav-cruise" role="tabpanel"
+                    aria-labelledby="nav-search-by-cruise-tab" tabindex="0">
+                    <form method="get" action="/search" enctype="multipart/form-data">
+                        <fieldset>
+                            <div class="header-form-container row">
+                                <div class="col-lg-3 col-sm-6 col-12 mb-1">
+                                    <input type="text" id="daterange"
+                                        class="form-control calendar-search-dates datepicker rounded-1"
+                                        readonly="readonly" autocomplete="off" placeholder="Departure Date">
+                                </div>
+
+                                <!-- Destination -->
+                                <div class="col-lg col-sm-6 col-12 mb-1">
+                                    <select id="searchbox_destination" name="searchbox_destinations[]"
+                                        class="form-select">
+                                        <option value="">Destination</option>
+                                        <option value="298">Africa</option>
+                                        <option value="2">Alaska</option>
+                                        <option value="3">Antarctica</option>
+                                        <option value="247">Arctic</option>
+                                        <option value="253">Asia</option>
+                                        <option value="4">Asia &amp; Indian Ocean</option>
+                                        <option value="5">Australasia</option>
+                                        <option value="245">Australia &amp; New Zealand</option>
+                                        <option value="6">Bahamas</option>
+                                        <option value="7">Baltic</option>
+                                        <option value="8">Bermuda</option>
+                                        <option value="242">Canada</option>
+                                        <option value="10">Canaries</option>
+                                        <option value="11">Caribbean</option>
+                                        <option value="12">Central America</option>
+                                        <option value="13">China</option>
+                                        <option value="14">Dubai &amp; Emirates</option>
+                                        <option value="243">East Coast US</option>
+                                        <option value="268">Europe</option>
+                                        <option value="17">Fiji</option>
+                                        <option value="48">Greece</option>
+                                        <option value="18">Hawaii</option>
+                                        <option value="19">Iberian Peninsula</option>
+                                        <option value="20">India</option>
+                                        <option value="249">Indian Ocean</option>
+                                        <option value="21">Mediterranean</option>
+                                        <option value="22">Mexico</option>
+                                        <option value="23">Middle East</option>
+                                        <option value="24">North America</option>
+                                        <option value="240">Northern Europe</option>
+                                        <option value="42">Norwegian Fjords</option>
+                                        <option value="26">Pacific</option>
+                                        <option value="27">Panama Canal</option>
+                                        <option value="28">Polar Regions</option>
+                                        <option value="244">Repositioning</option>
+                                        <option value="30">Scandinavia</option>
+                                        <option value="31">South America</option>
+                                        <option value="32">Transatlantic</option>
+                                        <option value="33">United Kingdom</option>
+                                        <option value="250">West Coast US</option>
+                                        <option value="41">West Med</option>
+                                        <option value="241">Western Europe</option>
+                                        <option value="34">World-wide</option>
+                                    </select>
+                                </div>
+
+                                <!-- Duration -->
+                                <div class="col-lg-2 col-sm-6 col-12 mb-1">
+                                    <select id="searchbox_durations" name="searchbox_durations[]"
+                                        class="form-select rounded-1">
+                                        <option value="">Duration</option>
+                                        <option value="1-5">1 - 5</option>
+                                        <option value="3-6">3 - 6</option>
+                                        <option value="7-9">7 - 9</option>
+                                        <option value="10-14">10 - 14</option>
+                                        <option value="14-365">14 +</option>
+                                    </select>
+                                </div>
+
+                                <!-- Cruise Line -->
+                                <div class="col-lg col-sm-6 col-12 mb-1">
+                                    <select id="searchbox_cruiselines" name="searchbox_cruiselines[]"
+                                        class="form-select rounded-1">
+                                        <option value="">Cruise line</option>
+                                        <option value="118">Ambassador Cruise Line</option>
+                                        <option value="7">Azamara</option>
+                                        <option value="55">Carnival Cruise Line</option>
+                                        <option value="8">Celebrity Cruises</option>
+                                        <option value="23">Celestyal Cruises</option>
+                                        <option value="14">Cunard Line</option>
+                                        <option value="121">Explora Journeys</option>
+                                        <option value="17">Fred. Olsen Cruise Lines</option>
+                                        <option value="20">Holland America Line</option>
+                                        <option value="41">Marella Cruises</option>
+                                        <option value="24">MSC Cruises</option>
+                                        <option value="26">Norwegian Cruise Line</option>
+                                        <option value="27">Oceania Cruises</option>
+                                        <option value="28">P&amp;O Cruises</option>
+                                        <option value="31">Princess Cruises</option>
+                                        <option value="33">Regent Seven Seas Cruises</option>
+                                        <option value="34">Royal Caribbean International</option>
+                                        <option value="92">Scenic Ocean Cruises</option>
+                                        <option value="35">Seabourn</option>
+                                        <option value="38">Silversea</option>
+                                        <option value="101">Virgin Voyages</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2 col-12">
+                                    <!-- Submit/Reset -->
+                                    <button type="submit" class="search-button btn btn-success w-100 rounded-1"
+                                        style="height: 36px">
+                                        SEARCH
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="tab-pane fade p-3" id="nav-ref" role="tabpanel" aria-labelledby="nav-search-by-ref-tab"
+                    tabindex="0">
+                    <form method="get" action="/search" enctype="multipart/form-data">
+                        <input type="hidden" name="_token" value="s8t7rn2o6SMGRGLuufFE5WumuapgBHRZIjzjOpOn"
+                            autocomplete="off" />
+                        <fieldset>
+                            <div class="header-form-container row">
+                                <div class="col-lg-10 col-sm-6 col-12 mb-1">
+                                    <input type="text" id="cruise_ref" name="cruise_ref" class="form-control rounded-1"
+                                        placeholder="Please enter the cruise reference" />
+                                </div>
+                                <div class="col-lg-2 col-sm-6 col-12">
+                                    <button type="submit" class="search-button btn btn-success w-100 rounded-1">
+                                        SEARCH
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="blue-text text-center p-2 m-4 mb-2">
+            Cruise Holidays In 2024, 2025 &amp; 2026
+        </h1>
+        <p class="text-center mx-5 mb-0">
+            We’ll find you the best deal on the right cruise. Our cruise specialists
+            are here to help plan your dream cruise holiday.
+        </p>
+        <p class="text-center mx-5">
+            Want to combine this with a hotel stay or land tour? No problem, call us
+            today and we’ll build a tailor made holiday just for you!
+        </p>
+        <div class="service-message w-100 d-flex align-items-center justify-content-center"
+            style="background-color: #efefef">
+            <div class="d-none d-sm-block">
+                <img src="https://www.cruise118.com/img/atol.png" loading="lazy" class="w-100" />
+            </div>
+            <div class="d-block d-sm-none">
+                <img src="https://www.cruise118.com/img/Atol-Mobile.png" loading="lazy" class="w-100" />
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Deals -->
+            <h2 class="blue-text text-center gold-text fs-3 p-2 m-3 mt-5">
+                Cruise Line Promotions
+            </h2>
+            <hr class="mx-auto blue-text bg-brand-blue mb-5" style="opacity: 1; width: 10%" />
+
+            <!-- carousel promotions -->
+            <div class="row" id="carouselPromotion"></div>
+            <!-- carousel end -->
+
+            <!-- Most Popular FR -->
+            <h2 class="blue-text text-center fs-3 p-2 mb-0 mt-5">
+                Most Popular Sailings
+            </h2>
+            <div class="custom-list" id="mostPopularCruiseDeals"></div>
+
+            <!-- Spotlight FR -->
+            <h2 class="blue-text text-center fs-3 p-2 mb-0 mt-5">
+                Cruise Line in Spotlight
+            </h2>
+            <div class="custom-list" id="spotlight"></div>
+
+            <h2 class="caps blue-text text-center fs-3 p-2 mb-0 mt-5">
+                CATEGORIES
+            </h2>
+            <div class="row row-cols-3" id="categories"></div>
+
+            <h2 class="caps blue-text text-center fs-3 p-2 mb-0 mt-5">
+                DESTINATIONS
+            </h2>
+            <div class="row row-cols-3" id="destinations"></div>
+
+
+        </div>
+    </section>
+
+    <!--
+        Scripts Start
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="Js/script.js"></script>
+    <script src="./Js/init.js"></script>
+
+    <script src="Js/carousel.js"></script>
+    <script src="Js/caroselProm.js"></script>
+    <script src="Js/customListGen.js"></script>
+    <script src="Js/GenerateCardList.js"></script>
+    <script src="Js/AwardGenerator.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!--
+        Scripts End
+    -->
+</body>
+
+</html>

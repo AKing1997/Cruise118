@@ -1,0 +1,34 @@
+{
+  "carouselItems": [
+    {
+      "href": "/cruiseline/royal-caribbean/cruise-deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1983301/conversions/royal-exclusive-240-savings-square-large_thumb.jpg",
+      "altText": "Royal Caribbean EXCLUSIVE £240 Savings"
+    },
+    {
+      "href": "/cruiseline/celebrity-cruises/deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1980082/conversions/010824-Save-240-FB-large_thumb.png",
+      "altText": ""
+    },
+    {
+      "href": "/cruiseline/msc-cruises/deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1983308/conversions/MSC-Winter-Banner-Social-large_thumb.png",
+      "altText": "MSC Winter Savings"
+    },
+    {
+      "href": "/cruiseline/ncl/deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1962979/conversions/NCL-NEW-hp-free-at-sea-square-large_thumb.jpg",
+      "altText": "NCL Half Price FREE Free at Sea - Cruise118 Exclusive"
+    },
+    {
+      "href": "/cruiseline/po-cruises/deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1980046/conversions/p-and-o-winter-special-square-large_thumb.jpg",
+      "altText": ""
+    },
+    {
+      "href": "/cruiseline/princess-cruises/deals",
+      "imgSrc": "https://www.cruise118.com/storage/media/1971702/conversions/princess-best-price-guarantee-square-large_thumb.jpg",
+      "altText": "Princess Best Price Guarantee"
+    }
+  ]
+}

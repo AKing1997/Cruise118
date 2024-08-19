@@ -1,0 +1,101 @@
+{
+  "mostPopularCruiseDeals": [
+    {
+      "line": "Celebrity Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2021/12/10/08/11/21/543fe4de-46b9-4e56-adba-bc77fa6b6122/Celebrity Cruises Logo Dec 2021 0.png",
+      "productName": "9 Night Best Of Greece",
+      "details": {
+        "departureDate": "26 Oct 2024",
+        "nights": 9,
+        "ship": "Celebrity Infinity",
+        "region": "Mediterranean"
+      },
+      "socialProof": {
+        "views": 166,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1115,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/CELEBIN09M298-261024",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/celebrity-cruises-celebrity-infinity-best-of-greece-9-nights-IN09M298/passengers/IN09M298_20241026?moduleCode=IN09M298&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FCELEBIN09M298-261024"
+      }
+    },
+    {
+      "line": "MSC Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2023/05/09/13/37/20/b335d6cc-2224-4a87-b8e0-780373aa96a5/MSC Cruises Logo 2023 updated.jpg",
+      "productName": "Atlantic Islands 7 Nights From Santa Cruz de Tenerife",
+      "details": {
+        "departureDate": "24 Nov 2024",
+        "nights": 7,
+        "ship": "MSC Opera",
+        "region": "Atlantic Islands"
+      },
+      "socialProof": {
+        "views": 289,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 798,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/MSCOX20241124SCTSCT",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/msc-cruises-msc-opera-canary-islands-and-madeira-7-nights-UUZY/passengers/OX20241124SCTSCT?moduleCode=UUZY&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FMSCOX20241124SCTSCT"
+      }
+    },
+    {
+      "line": "Princess Cruises",
+      "logo": "https://widgety-assets.s3.amazonaws.com/2020/12/17/12/13/56/263baa16-5658-4a54-9783-0522d0c34daa/Princess Logo.jpg",
+      "productName": "Sky Princess, North Europe (15N)",
+      "details": {
+        "departureDate": "13 Jun 2025",
+        "nights": 15,
+        "ship": "Sky Princess",
+        "region": "Northern Europe"
+      },
+      "socialProof": {
+        "views": 198,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1139,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/PRINCESSY520",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/princess-cruises-sky-princess-north-europe-15-nights-Y520_P/passengers/Y520_P?moduleCode=Y520_P&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FPRINCESSY520"
+      }
+    },
+    {
+      "line": "P&O Cruises",
+      "logo": "https://www.pocruises.com/content/dam/po/pno_logo.svg",
+      "productName": "Caribbean",
+      "details": {
+        "departureDate": "07 Dec 2024",
+        "nights": 14,
+        "ship": "Arvia",
+        "region": "Caribbean"
+      },
+      "socialProof": {
+        "views": 681,
+        "timeFrame": "in the last 7 days"
+      },
+      "price": {
+        "amount": 1224,
+        "currency": "£",
+        "perPerson": true
+      },
+      "links": {
+        "view": "/cruise/POK426A",
+        "bookOnline": "https://www.cruise118.com/onlinebooking/book/p-o-cruises-arvia-caribbean-14-nights-AR81708/passengers/K426A_20241207?moduleCode=AR81708&type=DynamicPackage&superCategory=INSIDE&productUrl=https%3A%2F%2Fcruise118.com%2Fcruise%2FPOK426A"
+      }
+    }
+  ],
+  "viewMoreLink": "https://www.cruise118.com/top-20-most-popular"
+}

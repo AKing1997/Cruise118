@@ -1,0 +1,220 @@
+{
+  "searchFilters": {
+    "departureDate": {
+      "label": "Departs From / To",
+      "type": "text",
+      "id": "departure_date",
+      "placeholder": "Departure Date",
+      "value": ""
+    },
+    "departingUK": {
+      "label": "Departing UK Only",
+      "type": "select",
+      "id": "departing_uk",
+      "default": "no",
+      "options": [
+        {
+          "value": "yes",
+          "text": "Yes"
+        },
+        {
+          "value": "no",
+          "text": "No"
+        }
+      ]
+    },
+    "cruiseLine": {
+      "label": "Cruise Line",
+      "type": "select",
+      "id": "cruiseline",
+      "multiple": true,
+      "options": [
+        {
+          "value": "118",
+          "text": "Ambassador Cruise Line"
+        },
+        {
+          "value": "7",
+          "text": "Azamara"
+        },
+        {
+          "value": "55",
+          "text": "Carnival Cruise Line"
+        },
+        {
+          "value": "8",
+          "text": "Celebrity Cruises"
+        },
+        {
+          "value": "23",
+          "text": "Celestyal Cruises"
+        },
+        {
+          "value": "14",
+          "text": "Cunard Line"
+        },
+        {
+          "value": "121",
+          "text": "Explora Journeys"
+        },
+        {
+          "value": "17",
+          "text": "Fred. Olsen Cruise Lines"
+        },
+        {
+          "value": "20",
+          "text": "Holland America Line"
+        },
+        {
+          "value": "41",
+          "text": "Marella Cruises"
+        },
+        {
+          "value": "24",
+          "text": "MSC Cruises"
+        },
+        {
+          "value": "26",
+          "text": "Norwegian Cruise Line"
+        },
+        {
+          "value": "27",
+          "text": "Oceania Cruises"
+        },
+        {
+          "value": "28",
+          "text": "P&O Cruises"
+        },
+        {
+          "value": "31",
+          "text": "Princess Cruises"
+        },
+        {
+          "value": "33",
+          "text": "Regent Seven Seas Cruises"
+        },
+        {
+          "value": "34",
+          "text": "Royal Caribbean International"
+        },
+        {
+          "value": "92",
+          "text": "Scenic Ocean Cruises"
+        },
+        {
+          "value": "35",
+          "text": "Seabourn"
+        },
+        {
+          "value": "38",
+          "text": "Silversea"
+        },
+        {
+          "value": "101",
+          "text": "Virgin Voyages"
+        }
+      ]
+    },
+    "ship": {
+      "label": "Ship",
+      "type": "select",
+      "id": "ship",
+      "multiple": true,
+      "options": [
+        {
+          "value": "2",
+          "text": "Adventure of the Seas"
+        },
+        {
+          "value": "1487",
+          "text": "Allura"
+        },
+        {
+          "value": "636",
+          "text": "Zuiderdam"
+        }
+      ]
+    },
+    "destination": {
+      "label": "Destination",
+      "type": "select",
+      "id": "destination",
+      "multiple": true,
+      "options": [
+        {
+          "value": "298",
+          "text": "Africa"
+        },
+        {
+          "value": "2",
+          "text": "Alaska"
+        },
+        {
+          "value": "3",
+          "text": "Antarctica"
+        },
+        {
+          "value": "34",
+          "text": "World-wide"
+        }
+      ]
+    },
+    "ports": {
+      "label": "Port",
+      "type": "select",
+      "id": "ports",
+      "multiple": true,
+      "options": [
+        {
+          "value": "1121",
+          "text": "'Aqaba"
+        },
+        {
+          "value": "903",
+          "text": "Aalborg"
+        },
+        {
+          "value": "68",
+          "text": "Aappilattoq"
+        },
+        {
+          "value": "377",
+          "text": "Zihuatanejo"
+        }
+      ]
+    },
+    "duration": {
+      "label": "Duration",
+      "type": "select",
+      "id": "durations",
+      "multiple": true,
+      "options": [
+        {
+          "value": "1-5",
+          "text": "1 - 5"
+        },
+        {
+          "value": "3-6",
+          "text": "3 - 6"
+        },
+        {
+          "value": "7-9",
+          "text": "7 - 9"
+        },
+        {
+          "value": "10-14",
+          "text": "10 - 14"
+        },
+        {
+          "value": "14-365",
+          "text": "14 +"
+        }
+      ]
+    },
+    "clearFilters": {
+      "label": "CLEAR ALL FILTERS",
+      "type": "button",
+      "action": "clearFilters"
+    }
+  }
+}

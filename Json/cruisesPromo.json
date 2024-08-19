@@ -1,0 +1,62 @@
+{
+    "cruisesPromo": [
+      {
+        "id": "RCIIC07E369-070924",
+        "title": "7 Night Eastern Caribbean & Perfect Day",
+        "imgSrc": "https://www.cruise118.com/storage/media/1843426/conversions/KNBAS---Basseterre,-Saint-Kitts,-Saint-Kitts-and-Nevis---Mick-Rodgers-banner_full.jpg",
+        "views": "1122 VIEWS IN THE LAST 24 HOURS",
+        "company": {
+          "name": "Royal Caribbean International",
+          "logo": "https://widgety-assets.s3.amazonaws.com/2023/06/08/08/32/18/11944668-1fc2-47a3-9110-3fb664169e12/RCI Logo.jpg"
+        },
+        "date": "07 Sep 2024",
+        "duration": "7 nights",
+        "ship": "Icon of the Seas",
+        "destination": "Caribbean",
+        "price": {
+          "amount": "£1233",
+          "perPerson": "pp"
+        },
+        "link": "/cruise/RCIIC07E369-070924"
+      },
+      {
+        "id": "RCIIC07W565-140924",
+        "title": "7 Night Western Caribbean & Perfect Day",
+        "imgSrc": "https://www.cruise118.com/storage/media/1844033/conversions/USMIA---Miami---The-Confident-Hotel-_Kelly-Russo_-banner_full.jpg",
+        "views": "408 VIEWS IN THE LAST 24 HOURS",
+        "company": {
+          "name": "Royal Caribbean International",
+          "logo": "https://widgety-assets.s3.amazonaws.com/2023/06/08/08/32/18/11944668-1fc2-47a3-9110-3fb664169e12/RCI Logo.jpg"
+        },
+        "date": "14 Sep 2024",
+        "duration": "7 nights",
+        "ship": "Icon of the Seas",
+        "destination": "Caribbean",
+        "price": {
+          "amount": "£1063",
+          "perPerson": "pp"
+        },
+        "link": "/cruise/RCIIC07W565-140924"
+      },
+      {
+        "id": "RCIIC07W565-280924",
+        "title": "7 Night Western Caribbean & Perfect Day",
+        "imgSrc": "https://www.cruise118.com/storage/media/1938476/conversions/shutterstock_66687001-custom_banner-banner_full.jpg",
+        "views": "250 VIEWS IN THE LAST 24 HOURS",
+        "company": {
+          "name": "Royal Caribbean International",
+          "logo": "https://widgety-assets.s3.amazonaws.com/2023/06/08/08/32/18/11944668-1fc2-47a3-9110-3fb664169e12/RCI Logo.jpg"
+        },
+        "date": "28 Sep 2024",
+        "duration": "7 nights",
+        "ship": "Icon of the Seas",
+        "destination": "Caribbean",
+        "price": {
+          "amount": "£1025",
+          "perPerson": "pp"
+        },
+        "link": "/cruise/RCIIC07W565-280924"
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "title": "2024 Cruises",
+      "description": "2024 Cruises selling fast!",
+      "image": "https://www.cruise118.com/storage/media/1914599/conversions/shipwreck-cove_zante_greece-thumb-thumb.jpg",
+      "link": "https://www.cruise118.com/2024-cruises/"
+    },
+    {
+      "title": "2025 Cruises",
+      "description": "Plan ahead with your 2025 holiday",
+      "image": "https://www.cruise118.com/storage/media/1914600/conversions/italy_background_image-thumb-thumb.jpg",
+      "link": "https://www.cruise118.com/2025-cruises"
+    },
+    {
+      "title": "2026 Cruises",
+      "description": "Secure your 2026 cruise today!",
+      "image": "https://www.cruise118.com/storage/media/1914601/conversions/2024-cruises-thumb-thumb.jpg",
+      "link": "/2026-cruises/"
+    },
+    {
+      "title": "Hand-Picked Cruise Deals",
+      "description": "See our specially handpicked selection of cruise deals.",
+      "image": "https://www.cruise118.com/storage/media/1938725/conversions/image-(3)-thumb.jpg",
+      "link": "https://www.cruise118.com/handpicked-last-minute-cruise-deals"
+    },
+    {
+      "title": "Cheap Cruise Deals",
+      "description": "Find a cruise for £999p or less",
+      "image": "https://www.cruise118.com/storage/media/1938724/conversions/image-(2)-thumb.jpg",
+      "link": "https://www.cruise118.com/cheap-cruises/discount-cruise.html"
+    },
+    {
+      "title": "Cruise Deals",
+      "description": "See the latest offers & promotions",
+      "image": "https://www.cruise118.com/storage/media/1914604/conversions/cruise_deals-thumb-thumb.jpg",
+      "link": "https://www.cruise118.com/cruise-offers/cruises-deals.html/"
+    }
+  ]
+}

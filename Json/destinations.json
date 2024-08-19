@@ -1,0 +1,41 @@
+{
+    "destinations": [
+      {
+        "title": "Cruises from Southampton",
+        "description": "Hassle Free No-Fly Cruises",
+        "image": "https://www.cruise118.com/storage/media/1938726/conversions/image-(4)-thumb.jpg",
+        "link": "https://www.cruise118.com/cruise-from/southampton.html/"
+      },
+      {
+        "title": "Caribbean Cruises",
+        "description": "Beautiful landscapes and laid back culture",
+        "image": "https://www.cruise118.com/storage/media/1914593/conversions/tim-foster-Sf23azHZRR4-unsplash-thumb-thumb.jpg",
+        "link": "https://www.cruise118.com/cruises-to/caribbean-cruises/deals"
+      },
+      {
+        "title": "Mediterranean Cruises",
+        "description": "From historic capital cities to charming coastal towns",
+        "image": "https://www.cruise118.com/storage/media/1914594/conversions/brooks-rice-gmH8RS33j_8-unsplash-thumb-thumb.jpg",
+        "link": "https://www.cruise118.com/cruises-to/mediterranean-cruises/deals"
+      },
+      {
+        "title": "European Cruises",
+        "description": "Discover the culture of Europe in unforgettable ways",
+        "image": "https://www.cruise118.com/storage/media/1914595/conversions/NCL-Santorini-thumb-thumb.jpg",
+        "link": "https://www.cruise118.com/cruises-to/europe-cruise/deals"
+      },
+      {
+        "title": "Asia & Indian Ocean Cruises",
+        "description": "Discover the wonders of the far east",
+        "image": "https://www.cruise118.com/storage/media/1914596/conversions/swapnil-bapat-sJ7pYyJFyuA-unsplash-thumb-thumb.jpg",
+        "link": "https://www.cruise118.com/cruises-to/far-and-middle-east-cruises/deals"
+      },
+      {
+        "title": "Online Cruise Deals",
+        "description": "Take Advantage of Online Booking Discounts",
+        "image": "https://www.cruise118.com/storage/media/1938727/conversions/image-(5)-thumb.jpg",
+        "link": "https://www.cruise118.com/book-cruises-online/"
+      }
+    ]
+  }
+  

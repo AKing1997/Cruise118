@@ -1,0 +1,47 @@
+{
+    "awards": {
+        "title": "Our Award Winning Service",
+        "items": [
+            {
+                "image": "https://www.cruise118.com/storage/media/1938723/conversions/image-(1)-large_thumb.jpg",
+                "alt": "Best Workplaces in Travel 2024",
+                "description": "Best Workplaces in Travel 2024"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916504/conversions/top_100-large_thumb-large_thumb.jpg",
+                "alt": "Best Company Top 100",
+                "description": "Best Company Top 100"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916503/conversions/wave_2019-large_thumb-large_thumb.jpg",
+                "alt": "Best Cruise Online Agent 2019",
+                "description": "Best Cruise Online Agent 2019"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916502/conversions/Winners_2021_Best_Online_Agent-thumb-large_thumb-large_thumb.jpg",
+                "alt": "Best Cruise Online Agent 2021",
+                "description": "Best Cruise Online Agent 2021"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916501/conversions/top_ocean_cruise_agency-large_thumb-large_thumb.jpg",
+                "alt": "TTG Top 50 Ocean Cruise Agency 2019",
+                "description": "TTG Top 50 Ocean Cruise Agency 2019"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916500/conversions/TTG_Top_50_Travel_Agencies-large_thumb.jpg",
+                "alt": "TTG Top 50 Ocean Cruise Agency 2022",
+                "description": "TTG Top 50 Ocean Cruise Agency 2022"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916499/conversions/Best_online_travel_agency-large_thumb.jpg",
+                "alt": "Best Online Travel Agency 2022",
+                "description": "Best Online Travel Agency 2022"
+            },
+            {
+                "image": "https://www.cruise118.com/storage/media/1916498/conversions/AAA's-2023-winner-full-large_thumb-large_thumb.jpg",
+                "alt": "Large Cruise Agency of the Year 2023",
+                "description": "Large Cruise Agency of the Year 2023"
+            }
+        ]
+    }
+}
