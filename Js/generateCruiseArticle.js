@@ -5,7 +5,7 @@ let currentPage = 1;
 
 $(document).ready(function () {
   $.ajax({
-    url: "https://aking1997.github.io/Cruise118/Json/cruises.json",
+    url: "http://kankit.es/Json/cruises.json",
     method: "GET",
     dataType: "json",
     success: function (data) {

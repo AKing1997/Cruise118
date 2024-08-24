@@ -1,5 +1,5 @@
-loadHTML("https://aking1997.github.io/Cruise118/Layout/header.html");
-loadHTML("https://aking1997.github.io/Cruise118/Layout/nav.html");
+loadHTML("http://kankit.es/Layout/header.html");
+loadHTML("http://kankit.es/Layout/nav.html");
 function loadHTML(file) {
   $.ajax({
     url: file,
@@ -13,7 +13,7 @@ function loadHTML(file) {
   });
 }
 $.ajax({
-  url: "https://aking1997.github.io/Cruise118/Layout/footer.html",
+  url: "http://kankit.es/Layout/footer.html",
   method: "GET",
   success: function (data) {
     $("body").append(data);

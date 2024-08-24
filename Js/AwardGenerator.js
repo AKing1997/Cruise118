@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-      url: "https://aking1997.github.io/Cruise118/Json/awards.json",
+      url: "http://kankit.es/Json/awards.json",
       method: "GET",
       dataType: "json",
       success: function (data) {

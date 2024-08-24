@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "https://aking1997.github.io/Cruise118/Json/mostPopularData.json",
+        url: "http://kankit.es/Json/mostPopularData.json",
         method: "GET",
         dataType: "json",
         success: function (data) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
       });
 
       $.ajax({
-        url: "https://aking1997.github.io/Cruise118/Json/spotlightData.json",
+        url: "http://kankit.es/Json/spotlightData.json",
         method: "GET",
         dataType: "json",
         success: function (data) {
