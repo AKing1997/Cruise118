@@ -6,7 +6,7 @@ $(document).ready(function () {
         showCaptions: false,
         items: [
             {
-                bgSrc: "/assets/img/carousel/bg/1.png",
+                bgSrc: "https://aking1997.github.io/Cruise118/assets/img/carousel/bg/1.png",
                 imgSrc: "/assets/img/carousel/1.png",
                 interval: 2000,
                 link: "https://example.com/page2",
@@ -17,7 +17,7 @@ $(document).ready(function () {
                 active: true
             },
             {
-                bgSrc: "/assets/img/carousel/bg/2.jpg",
+                bgSrc: "https://aking1997.github.io/Cruise118/assets/img/carousel/bg/2.jpg",
                 imgSrc: "/assets/img/carousel/2.png",
                 link: "https://example.com/page3",
                 interval: 2000,
@@ -28,7 +28,7 @@ $(document).ready(function () {
                 active: false
             },
             {
-                bgSrc: "/assets/img/carousel/bg/1.png",
+                bgSrc: "https://aking1997.github.io/Cruise118/assets/img/carousel/bg/1.png",
                 imgSrc: "/assets/img/carousel/3.png",
                 link: "https://example.com/page4",
                 interval: 2000,

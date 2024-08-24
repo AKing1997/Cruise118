@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "./../Json/carouselPromotionsData.json", // Reemplaza con la ruta a tu archivo JSON
+    url: "https://aking1997.github.io/Cruise118/Json/carouselPromotionsData.json", // Reemplaza con la ruta a tu archivo JSON
     method: "GET",
     dataType: "json",
     success: function (data) {

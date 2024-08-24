@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "./../Json/destinations.json",
+    url: "https://aking1997.github.io/Cruise118/Json/destinations.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
@@ -12,7 +12,7 @@ $(document).ready(function () {
   });
 
   $.ajax({
-    url: "./../Json/categories.json",
+    url: "https://aking1997.github.io/Cruise118/Json/categories.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
