@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "/Json/filterOption.json",
+    url: "./Json/filterOption.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
