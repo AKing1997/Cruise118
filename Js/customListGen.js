@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "http://kankit.es/Json/mostPopularData.json",
+        url: "http://cruise118.kankit.es/Json/mostPopularData.json",
         method: "GET",
         dataType: "json",
         success: function (data) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
       });
 
       $.ajax({
-        url: "http://kankit.es/Json/spotlightData.json",
+        url: "http://cruise118.kankit.es/Json/spotlightData.json",
         method: "GET",
         dataType: "json",
         success: function (data) {

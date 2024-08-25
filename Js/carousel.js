@@ -6,8 +6,8 @@ $(document).ready(function () {
         showCaptions: false,
         items: [
             {
-                bgSrc: "http://kankit.es/Assets/Img/carousel/bg/1.png",
-                imgSrc: "http://kankit.es/Assets/Img/carousel/1.png",
+                bgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/bg/1.png",
+                imgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/1.png",
                 interval: 2000,
                 link: "https://example.com/page2",
                 caption: {
@@ -17,8 +17,8 @@ $(document).ready(function () {
                 active: true
             },
             {
-                bgSrc: "http://kankit.es/Assets/Img/carousel/bg/2.jpg",
-                imgSrc: "http://kankit.es/Assets/Img/carousel/2.png",
+                bgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/bg/2.jpg",
+                imgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/2.png",
                 link: "https://example.com/page3",
                 interval: 2000,
                 caption: {
@@ -28,8 +28,8 @@ $(document).ready(function () {
                 active: false
             },
             {
-                bgSrc: "http://kankit.es/Assets/Img/carousel/bg/1.png",
-                imgSrc: "http://kankit.es/Assets/Img/carousel/3.png",
+                bgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/bg/1.png",
+                imgSrc: "http://cruise118.kankit.es/Assets/Img/carousel/3.png",
                 link: "https://example.com/page4",
                 interval: 2000,
                 caption: {

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "http://kankit.es/Json/destinations.json",
+    url: "http://cruise118.kankit.es/Json/destinations.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
@@ -12,7 +12,7 @@ $(document).ready(function () {
   });
 
   $.ajax({
-    url: "http://kankit.es/Json/categories.json",
+    url: "http://cruise118.kankit.es/Json/categories.json",
     method: "GET",
     dataType: "json",
     success: function (data) {

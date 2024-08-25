@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-      url: "http://kankit.es/Json/awards.json",
+      url: "http://cruise118.kankit.es/Json/awards.json",
       method: "GET",
       dataType: "json",
       success: function (data) {

@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
 
   $.ajax({
-    url: "http://kankit.es/Json/cruisesPromo.json",
+    url: "http://cruise118.kankit.es/Json/cruisesPromo.json",
     method: "GET",
     dataType: "json",
     success: function (data) {

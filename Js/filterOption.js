@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "http://kankit.es/Json/filterOption.json",
+    url: "http://cruise118.kankit.es/Json/filterOption.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
