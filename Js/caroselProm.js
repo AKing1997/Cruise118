@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "http://cruise118.kankit.es/Json/carouselPromotionsData.json", // Reemplaza con la ruta a tu archivo JSON
+    url: "https://cruise118.kankit.es/Json/carouselPromotionsData.json", // Reemplaza con la ruta a tu archivo JSON
     method: "GET",
     dataType: "json",
     success: function (data) {

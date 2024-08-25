@@ -1,5 +1,5 @@
-loadHTML("http://cruise118.kankit.es/Layout/header.html");
-loadHTML("http://cruise118.kankit.es/Layout/nav.html");
+loadHTML("https://cruise118.kankit.es/Layout/header.html");
+loadHTML("https://cruise118.kankit.es/Layout/nav.html");
 function loadHTML(file) {
   $.ajax({
     url: file,
@@ -13,7 +13,7 @@ function loadHTML(file) {
   });
 }
 $.ajax({
-  url: "http://cruise118.kankit.es/Layout/footer.html",
+  url: "https://cruise118.kankit.es/Layout/footer.html",
   method: "GET",
   success: function (data) {
     $("body").append(data);
